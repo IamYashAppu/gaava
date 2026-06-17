@@ -38,7 +38,7 @@ const Header = () => {
                 key={item.id}
                 href={item.href} 
                 onMouseEnter={() => setHoveredNav(item.id)}
-                className="relative px-5 py-2 text-sm font-medium transition-colors z-10 flex items-center gap-2 rounded-full"
+                className="relative px-3 py-1.5 md:px-5 md:py-2 text-xs md:text-sm font-medium transition-colors z-10 flex items-center gap-2 rounded-full"
                 style={{ color: isHovered ? '#000000' : 'rgba(255,255,255,0.6)' }}
               >
                 {isHovered && (
@@ -70,10 +70,10 @@ const Header = () => {
       >
         <motion.a 
           href="#"
-          className="font-tech tracking-widest text-primary pointer-events-auto block"
+          className={`font-tech tracking-widest text-primary pointer-events-auto block transition-opacity duration-500 ${isScrolled ? 'opacity-0 md:opacity-100' : 'opacity-100'}`}
           animate={{
-            fontSize: isScrolled ? "1.5rem" : "8rem",
-            lineHeight: isScrolled ? "2rem" : "8rem",
+            fontSize: isScrolled ? "1.5rem" : "clamp(3.5rem, 15vw, 8rem)",
+            lineHeight: isScrolled ? "2rem" : "clamp(4rem, 15vw, 8rem)",
           }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >

@@ -53,7 +53,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
         className="relative z-10 max-w-4xl mx-auto w-full"
       >
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary mb-6 drop-shadow-2xl">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-primary mb-6 drop-shadow-2xl">
           <ScrambleText 
             text="Optimizing Essential Industries with Connective Intelligence." 
             trigger={isScrolled} 
