@@ -5,7 +5,7 @@ const founders = [
   {
     name: "Yashwanth",
     role: "Founding Engineer / ML Lead",
-    link: "https://www.linkedin.com/in/k-yashwanth-kumar/",
+    link: "https://github.com/IamYashAppu",
     points: [
       "Architected proprietary predictive algorithms.",
       "Expertise in deep learning and NLP.",
@@ -15,6 +15,7 @@ const founders = [
   {
     name: "Zaid",
     role: "Founding Engineer / Full-Stack Architect",
+    link: "https://github.com/mdzaidibrahim",
     points: [
       "Designed secure, zero-trust infrastructure.",
       "Specializes in distributed MERN architectures.",
@@ -24,6 +25,7 @@ const founders = [
   {
     name: "Faizan",
     role: "Founding Engineer / Systems Design",
+    link: "https://github.com/IamYashAppu",
     points: [
       "Pioneered autonomous agent frameworks.",
       "Integrates complex physical-digital workflows.",
